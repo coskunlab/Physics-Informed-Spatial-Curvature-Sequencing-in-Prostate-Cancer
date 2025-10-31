@@ -39,4 +39,35 @@ import numpy as np
 # Example: a gland contour stored as (y, x) or (row, col)
 coords = np.load("path/to/gland_boundary.npy")  # shape (N, 2)
 
+## AnnData Input
+When integrating molecular or intensity data, the pipeline accepts an AnnData (.h5ad) file that stores spatial transcriptomics or imaging-derived intensity features for each observation.
+
+Typical format:
+AnnData object with n_obs × n_vars = 71380 × 2
+obs: 'X', 'Y',
+
+Where X and Y are the cell coordinates, the vars are the genes of interest
+
+
+
+
+
+## Python Packages
+
+The following Python packages are required to run the CurvSeq pipeline:
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+import re
+import tifffile as tif
+import scanpy as sc
+import cv2
+from scipy.ndimage import gaussian_filter1d
+from hdbscan import HDBSCAN
+from scipy.stats import pearsonr, spearmanr
+import seaborn as sns
+
 
