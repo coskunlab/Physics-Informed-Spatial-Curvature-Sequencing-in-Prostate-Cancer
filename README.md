@@ -15,7 +15,9 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 This repository includes two Jupyter notebooks demonstrating the main steps of the CurvSeq pipeline:
 
 -Compute_curvature_contours.ipynb — shows how to load gland boundary coordinates, compute local curvature values, and visualize curvature profiles along each contour.
+
 -Compute_plot_gene_curvature_correlation.ipynb — demonstrates how to merge curvature data with molecular or protein expression (from AnnData files) and perform statistical correlation analysis (Pearson/Spearman), including visualizations of curvature–expression relationships.
+
 ## 💻 System Requirements
 
 | Component | Requirement | Notes |
