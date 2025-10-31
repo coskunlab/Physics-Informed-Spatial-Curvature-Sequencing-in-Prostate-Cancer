@@ -42,14 +42,12 @@ coords = np.load("path/to/gland_boundary.npy")  # shape (N, 2)
 ## AnnData Input
 When integrating molecular or intensity data, the pipeline accepts an AnnData (.h5ad) file that stores spatial transcriptomics or imaging-derived intensity features for each observation.
 
+```python
 Typical format:
 AnnData object with n_obs × n_vars = 71380 × 2
 obs: 'X', 'Y',
-
+```
 Where X and Y are the cell coordinates, the vars are the genes of interest
-
-
-
 
 
 ## Python Packages
