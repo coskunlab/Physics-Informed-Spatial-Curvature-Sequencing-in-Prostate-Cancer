@@ -11,7 +11,7 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 
 The following images show the main pipeline of CurvSeq/CurvSee
 
-![Alt text](pictures/Manusctipt Figures CurvSeq up.png)
+![Alt text](pictures/Manusctipt_Figures_CurvSeq_up.png)
 
 
 
