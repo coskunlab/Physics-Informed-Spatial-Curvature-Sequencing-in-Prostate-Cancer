@@ -17,10 +17,8 @@ This schematic illustrates the overall CurvSeq/CurvSee workflow. Starting from m
 
 ![Alt text](pictures/Manusctipt_Figures_CurvSeq_down.png)
 
-This figure demonstrates an example application of the CurvSeq workflow. The top panels show the computed curvature along a gland boundary (left) and the corresponding spatial distribution of FOXA1 expression (right). The bottom panels display microniche segmentation based on curvature and expression similarity, followed by correlation analysis between curvature and FOXA1 levels. A positive Pearson correlation indicates that higher gland curvature regions are associated with elevated FOXA1 expression, highlighting spatial mechano-molecular coupling within the tissue.
+This figure demonstrates an example application of the CurvSeq workflow. The top panels show the computed curvature along a gland boundary (left) and the corresponding spatial distribution of FOXA1 expression (right). The bottom panels display microniche segmentation based on curvature using density based clustering, followed by correlation analysis between curvature clusters and FOXA1 levels. A positive Pearson correlation indicates that regions where the gland bends towards the outside are associated with elevated FOXA1 expression, highlighting spatial mechano-molecular coupling within the tissue.
 
-
----
 
 ## 📁 Repository Structure
 This repository includes two Jupyter notebooks demonstrating the main steps of the CurvSeq pipeline:
