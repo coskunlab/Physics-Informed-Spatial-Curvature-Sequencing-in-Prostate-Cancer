@@ -1,4 +1,4 @@
-# CurvSeq / Physics-Informed-Spatial-Curvature-Sequencing-in-Prostate-Cancer
+# CurvSeq/CurvSee: Physics-Informed-Spatial-Curvature-Sequencing-in-Prostate-Cancer
 
 This repository hosts the code, data processing scripts, and visualization tools developed for the **CurvSeq** project — a pipeline linking **glandular curvature**, **molecular expression**, **AFM-measured stiffness** in prostate adenocarcinoma tissues.
 ---
