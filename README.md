@@ -38,6 +38,7 @@ import numpy as np
 
 # Example: a gland contour stored as (y, x) or (row, col)
 coords = np.load("path/to/gland_boundary.npy")  # shape (N, 2)
+```python
 
 ## AnnData Input
 When integrating molecular or intensity data, the pipeline accepts an AnnData (.h5ad) file that stores spatial transcriptomics or imaging-derived intensity features for each observation.
