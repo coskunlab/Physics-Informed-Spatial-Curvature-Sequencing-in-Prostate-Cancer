@@ -13,6 +13,11 @@ The following images show the main pipeline of CurvSeq/CurvSee
 
 ![Alt text](pictures/Manusctipt_Figures_CurvSeq_up.png)
 
+This schematic illustrates the overall CurvSeq/CurvSee workflow. Starting from multiplexed prostate tissue images (step 1), gland boundaries are extracted and used to compute local curvature profiles (step 2). These curvature values—distinguishing outward and inward regions—are then projected onto the corresponding molecular maps derived from spatial transcriptomics or proteomics data (step 3). Finally, curvature metrics are correlated with gene or protein expression levels to reveal spatial mechano-molecular relationships within prostate gland architecture (step 4).
+
+![Alt text](pictures/Manusctipt_Figures_CurvSeq_down.png)
+
+This figure demonstrates an example application of the CurvSeq workflow. The top panels show the computed curvature along a gland boundary (left) and the corresponding spatial distribution of FOXA1 expression (right). The bottom panels display microniche segmentation based on curvature and expression similarity, followed by correlation analysis between curvature and FOXA1 levels. A positive Pearson correlation indicates that higher gland curvature regions are associated with elevated FOXA1 expression, highlighting spatial mechano-molecular coupling within the tissue.
 
 
 ---
