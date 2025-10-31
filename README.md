@@ -10,7 +10,7 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 - Visualize correlations between curvature and gene/protein data
 
 The following images show the main pipeline of CurvSeq/CurvSee
-![Alt text](figures/clustering/clustered_BM_cell_3.png)
+![Alt text](pictures/Manusctipt Figures CurvSeq up.png)
 
 
 
