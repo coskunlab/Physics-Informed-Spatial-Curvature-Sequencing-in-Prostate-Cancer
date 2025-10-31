@@ -16,6 +16,7 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 ## 📁 Repository Structure
 
 
+## 💻 System Requirements
 
 | Component | Requirement | Notes |
 |------------|--------------|-------|
