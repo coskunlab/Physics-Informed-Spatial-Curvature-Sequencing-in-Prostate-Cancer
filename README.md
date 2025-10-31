@@ -12,32 +12,6 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 ---
 
 ## 📁 Repository Structure
-curvseq/
-├─ src/curvseq/ # Core modules for curvature, AFM, and analysis
-│ ├─ metrics.py # Curvature computation utilities
-│ ├─ plots.py # Visualization and figure generation
-│ ├─ afm.py # AFM stiffness extraction and Hertz fits
-│ └─ pipeline.py # Main pipeline for combining curvature, AFM, and molecular data
-│
-├─ scripts/ # Command-line scripts for reproducible runs
-│ ├─ extract_curvature.py
-│ ├─ merge_afm_curvature.py
-│ └─ make_figures.py
-│
-├─ notebooks/ # Interactive Jupyter notebooks
-│ └─ Curvature_and_Correlation.ipynb # Demonstrates how to compute curvature and correlate it with gene/protein expression
-│
-├─ data/ # Input and processed data folders
-│ ├─ raw/ # Original masks, AFM files, and spatial data
-│ ├─ processed/ # Cleaned and merged CSV or AnnData files
-│ └─ interim/ # Intermediate results
-│
-├─ figures/ # Exported figures and plots
-├─ tests/ # Unit tests for core functions
-├─ requirements.txt
-├─ environment.yml
-├─ README.md
-└─ LICENSE
 
 ## 💻 System Requirements
 
