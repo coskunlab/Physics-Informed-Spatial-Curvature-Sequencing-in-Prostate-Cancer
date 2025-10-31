@@ -15,3 +15,15 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 
 ## 📁 Repository Structure
 
+
+
+| Component | Requirement | Notes |
+|------------|--------------|-------|
+| **Operating System** | Windows 10 or Windows 11 | Tested primarily on Windows 11 (64-bit) |
+| **Python Version** | 3.10.x | Works best with Conda or venv environments |
+| **RAM** | ≥ 16 GB | Large TIFF/NumPy operations benefit from higher memory |
+| **Storage** | ≥ 50 GB free | Required for AFM exports, TIFF masks, and processed datasets |
+| **GPU (optional)** | NVIDIA CUDA-enabled | Recommended for Cellpose-SAM acceleration |
+|  **Dependencies** | Listed in `environment.yml` | Includes `numpy`, `scikit-image`, `tifffile`, `napari`, `scanpy`, `hdbscan`, `matplotlib`, and others |
+
+
