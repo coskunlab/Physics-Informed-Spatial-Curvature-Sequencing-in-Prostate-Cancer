@@ -27,4 +27,16 @@ CurvSeq (short for *Curvature Sequencing*) provides a reproducible workflow to:
 | **GPU (optional)** | NVIDIA CUDA-enabled | Recommended for Cellpose-SAM acceleration |
 |  **Dependencies** | Listed in `environment.yml` | Includes `numpy`, `scikit-image`, `tifffile`, `napari`, `scanpy`, `hdbscan`, `matplotlib`, and others |
 
+## ⚙️ Usage – Computing Curvature
+
+The curvature computation module extracts local curvature values from a gland boundary represented as a 2D curve.
+
+### Input Format
+The pipeline expects a **2D NumPy array** of shape `(N, 2)` representing the coordinates of the gland boundary:
+```python
+import numpy as np
+
+# Example: a gland contour stored as (y, x) or (row, col)
+coords = np.load("path/to/gland_boundary.npy")  # shape (N, 2)
+
 
